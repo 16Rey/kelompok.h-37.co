@@ -1,0 +1,137 @@
+/*@media only screen and (max-width: 1055px) {
+  header{
+    width:100%;
+  }
+  .list img {
+    width: 70%;
+  }
+  .list {
+    padding: 5px 10px;
+  }
+  .list p {
+  margin: 0 0 10px 0;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .profil {
+    height: 1400px;
+  }
+}
+/* --------------------ini punya */
+ 
+@media(max-width:1055px){
+  .header{
+    width:100%;
+  }
+  .list img{
+    width:70%;
+  }
+  .list{
+    padding: 5px 10px;
+  }
+  .list p{
+    margin:0 0 10px 0;
+  }
+  .top-wrapper url{
+    width:100%;
+  }
+  .profil{
+    width:100%;
+  }
+}
+
+@media(max-width:670px){
+  .container-header{
+    width:100%;
+  }
+  .top-wrapper{
+    padding:100%;
+    width:100%;
+  }
+
+  .top-container h2{
+    font-size:100px;
+    text-align:center;
+    padding:0;
+  }
+  footer{
+    width:100%;
+
+  } 
+  /* --------------------------- */
+/* 
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 30px;
+  }
+
+  .list {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+}
+
+/* Untuk Smartphone */
+/* @media all and (max-width: 670px) {
+
+  .logo {
+    width: 30%;
+    margin: 20px 20px;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .menu-ikon {
+    display: block;
+  }
+
+  header {
+    width: 100%;
+    box-sizing: none;
+  }
+  
+  .top-wrapper {
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .profil {
+    float: left;
+  }
+  .profil-wrapper h2 {
+    font-size: 20px;
+  }
+
+  .profil-wrapper {
+    width : 100%;
+    float: left;
+  }
+  .list {
+    width : 100%;
+    float: left;
+  }
+
+  .list-info {
+    width : 100%;
+    float: left;
+  }
+
+  
+} */
