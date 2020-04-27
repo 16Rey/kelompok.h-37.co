@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+/* Renaldi Nubatonis */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(105, 126, 131, 0.7);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+/*
+.menu-icon {
+  color: white;
+  font-size:25px;
+  padding:21px 0;
+  display:none;
+  float:right;
+}
+*/
+
+.header-left {
+  float: left;
+}
+
+.logo {
+  width: 180px;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 60px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #ecf0f1;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+a {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu-ikon {
+  display: none;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #2c3e50;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url('walpeper coding.jpg');  
+  background-size: cover;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.top-wrapper h1 {
+  opacity: 1;
+  font-size: 85px;
+  font-weight: bold;
+  letter-spacing: 7px;
+  margin-bottom: 10px;
+  color: #d63031;
+}
+
+.top-wrapper h2 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  color: #dfe6e9;
+}
+
+span {
+  color: #d63031;
+}
+/* Nina */
+.profil {
+  height: 1880px;
+  width: 100%;
+  background-color: rgb(243, 246, 248);
+}
+
+.profil-wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: left;
+}
+
+.profil h2 {
+  font-size: 40px;
+  color:#2f3542;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #2f3542;
+  text-align: center;
+  font-weight: bold;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.lists {
+  width: 100%;
+  /* margin: 0 auto; */
+  height: 1900px;
+  /* Ini sebagai latihan
+  border: 1px solid #ced6e0; */
+  padding-left: 30px;
+}
+
+.list {
+  width: 45%;
+  height: 300px;
+  /* display:inline-block; */
+  padding: 10px 30px;
+  border: 1px solid #a1b2c7;
+  margin: 30px 20px;
+  opacity: 0.7;
+  position: relative;
+  float: left;
+}
+
+/* .list img {
+
+} */
+
+.list-info {
+  text-align: left;
+  width: 45%;
+  height: 300px;
+  display:inline-block;
+  padding: 10px 30px;
+  border: 1px solid #a1b2c7;
+  margin: 30px 20px;
+  /* opacity: 0.7; */
+  float: left;
+  padding-top: 15px;
+  position: relative;
+  background-color: #dfe6e9;
+}
+
+.list-info a {
+  margin-top: 13px;
+  font-size: 20px;
+  color: #2c3e50;
+  display: inline-block;
+}
+
+.list-info p {
+  padding-left: 25px;
+}
+
+.fa {
+  color : #2c3e50;
+}
+
+.list:hover {
+  opacity: 1.0;
+}
+
+ 
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.btn {
+  font-size: 20px;
+}
+
+
+/* ini mottonya gais*/
+.motto {
+  width: 100%;
+  height: 500px;
+  background-color: #dfe6e9;
+  padding-top: 10px;
+}
+
+.motto-wrapper {
+  width: 1170px;
+  margin-top: 90px;
+  margin: 0 auto;
+}
+
+.motto-wrapper h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
+  text-align: center;
+  opacity: 0.9;
+  color: #2d3436;
+  padding-top: 30px;
+}
+
+/* Untuk footer - kalo mau diediit lagi boleh banget*/
+footer {
+  height: 70px;
+  background-color:black; 
+}
+.footer-logo{
+  float:left;
+  width: 60px;
+  padding:10px;
+}
+.footer-list{
+  float: right;
+  color:#ecf0f1;
+}
+li{
+  list-style:none;
+}
+.footer-list li{
+  padding-bottom:10px;
+}
+
+.copy-right{
+  float:left;
+  color:white;
+  padding:23px 5px;
+}
+
+.site{
+  padding:23px 5px;
+  float:right;
+  color:white;
+}
